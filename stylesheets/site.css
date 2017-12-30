@@ -3143,7 +3143,7 @@ h6 {
 ._legibility {
   text-rendering: optimizeLegibility; }
 
-._antialias {
+._antialiased, div ._tumblr-item ._tumblr-excerpt {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -3273,7 +3273,7 @@ div ._tumblr-item {
       display: inline-block;
       padding-right: 8px; }
   div ._tumblr-item ._tumblr-excerpt {
-    color: #ADADAD;
+    color: #333333;
     padding-bottom: 4px;
     line-height: 22px; }
   div ._tumblr-item ._tumblr-description p {
